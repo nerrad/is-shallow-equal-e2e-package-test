@@ -1,0 +1,23 @@
+{
+  "name": "ishallowequaltest",
+  "version": "1.0.0",
+  "description": "A simple test of published is-shallow-equal package behaviour.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "is-shallow-equal",
+    "e2e-test"
+  ],
+  "author": "Darren Ethier",
+  "license": "MIT",
+  "dependencies": {
+    "@wordpress/is-shallow-equal": "^1.1.0",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
